@@ -1,7 +1,7 @@
 SITE:
     Local: '127.0.0.1:8888'
     Remote:
-        Url: 'http://roblib_2022.lndo.site'
+        Url: 'https://morningstarstuff.com'
         Path: user
 PORT: 8000
 BSREWRITE:
