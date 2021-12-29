@@ -3,6 +3,42 @@
  *configuration
  */
 @font-face {
+  font-family: "Audrey Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Audrey Regular"), url("../fonts/audrey/Audrey-Normal.woff") format("woff");
+}
+@font-face {
+  font-family: "Audrey Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Audrey Italic"), url("../fonts/audrey/Audrey-NormalOblique.woff") format("woff");
+}
+@font-face {
+  font-family: "Audrey Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Audrey Medium"), url("../fonts/audrey/Audrey-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Audrey Medium Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Audrey Medium Oblique"), url("../fonts/audrey/Audrey-MediumOblique.woff") format("woff");
+}
+@font-face {
+  font-family: "Audrey Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Audrey Bold"), url("../fonts/audrey/Audrey-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Audrey Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Audrey Bold Italic"), url("../fonts/audrey/Audrey-BoldOblique.woff") format("woff");
+}
+@font-face {
   font-family: "Adelle Regular";
   font-style: normal;
   font-weight: normal;
@@ -376,7 +412,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Open Sans Regular", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -764,7 +800,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Adelle Regular";
+  font-family: "Audrey Medium";
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -6692,7 +6728,7 @@ header {
 .site-name {
   display: flex;
   flex-direction: center;
-  font-family: "Adelle Regular";
+  font-family: "Audrey Medium";
   align-items: center;
 }
 .site-name a {
