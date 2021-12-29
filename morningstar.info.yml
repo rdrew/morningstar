@@ -1,4 +1,4 @@
-name: roblib_d9
+name: morningstar
 type: theme
 description: 'My Awesome theme'
 package: Other
@@ -7,7 +7,7 @@ core_version_requirement: ^8 || ^9
 base theme: classy
 
 libraries:
-  - roblib_d9/global-styling
+  - morningstar/global-styling
 
 stylesheets-remove:
   - core/themes/classy/css/components/breadcrumb.css
