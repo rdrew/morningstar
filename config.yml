@@ -6,10 +6,10 @@ SITE:
 PORT: 8000
 BSREWRITE:
     Css:
-        Match: "/themes/custom/roblib_d9/css/"
+        Match: "/themes/custom/morningstar/css/"
         Replace: "/css/"
     Js:
-        Match: "/themes/custom/roblib_d9/js/"
+        Match: "/themes/custom/morningstar/js/"
         Replace: "/js/"
 PATHS:
     Watch:
